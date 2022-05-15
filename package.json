@@ -1,0 +1,31 @@
+{
+  "name": "rofi-notes-org",
+  "version": "1.0.0",
+  "description": "A rofi script that helps you catch and access notes with rofi and store them in a simple org (or just plain text) file.",
+  "main": "notes-org.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thewebmasterp/rofi-notes-org.git"
+  },
+  "keywords": [
+    "rofi",
+    "notes",
+    "org-mode",
+    "org",
+    "emacs",
+    "i3wm",
+    "linux"
+  ],
+  "author": "thewebmasterp",
+  "license": "ISC",
+  "bin": {
+	"rofi-notes-org": "./notes-org.js"
+  },
+  "bugs": {
+    "url": "https://github.com/thewebmasterp/rofi-notes-org/issues"
+  },
+  "homepage": "https://github.com/thewebmasterp/rofi-notes-org#readme"
+}
