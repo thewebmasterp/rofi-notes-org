@@ -1,16 +1,34 @@
 #!/usr/bin/env node
 
-const USER = process.env.USER || ''
-
-//Modify this setting to change the default note file location
-const NOTES_FILE = `/home/${USER}/.notes_org`
-
-const fs = require('fs')
 const args = process.argv.slice(2)
+const YAML = require('yaml')
+const fs = require('fs')
 
+const USER = process.env.USER || ''
+const HOME_DIR = `/home/${USER}`
+const CONFIG_PATH = `${HOME_DIR}/.config/rofi/rofi-notes-org.yaml`
+const config = YAML.parse(fs.readFileSync(CONFIG_PATH, 'utf8')) || {}
+
+// Some dirty, quick validation
+if (!fs.existsSync(config['notes-file'])) {
+  const tryagain = config['notes-file'].replace('~', HOME_DIR)
+  if (!fs.existsSync(tryagain)) {
+    console.error(
+      `Couldn't validate "notes-file" property with value "${
+        config['notes-file']
+      }" passed in "${CONFIG_PATH}"`
+    )
+  } else {
+    config['notes-file'] = tryagain
+  }
+}
+config['plain-text-format'] = !!config['plain-text-format']
+
+// Translator functions
 const orgToTxt = rawdata => {
-  // Uncomment if you want to disable org mode format and store notes in plain text instead (below as well)
-  // return rawdata
+  if (config['plain-text-format']) {
+    return rawdata
+  }
 
   let arr = rawdata.split('\n')
   arr.shift()
@@ -21,8 +39,9 @@ const orgToTxt = rawdata => {
 }
 
 const txtToOrg = rawdata => {
-  // Uncomment if you want to disable org mode format and store notes in plain text instead
-  // return rawdata
+  if (config['plain-text-format']) {
+    return rawdata
+  }
 
   let arr = rawdata.split('\n').filter(el => {
     return el !== ''
@@ -36,7 +55,8 @@ const txtToOrg = rawdata => {
   return arr.join('\n')
 }
 
-fs.readFile(NOTES_FILE, 'utf8', (err, rawdata) => {
+// Main
+fs.readFile(config['notes-file'], 'utf8', (err, rawdata) => {
   const data = orgToTxt(rawdata)
   if (err) throw err
   if (args[0]) {
@@ -48,7 +68,7 @@ fs.readFile(NOTES_FILE, 'utf8', (err, rawdata) => {
       arr.push(args[0])
     }
     const newData = txtToOrg(arr.join('\n'))
-    fs.writeFile(NOTES_FILE, newData, err => {
+    fs.writeFile(config['notes-file'], newData, err => {
       if (err) throw err
     })
   } else {
@@ -59,5 +79,4 @@ fs.readFile(NOTES_FILE, 'utf8', (err, rawdata) => {
     console.log(arr.join(''))
   }
 })
-
 console.log('\0prompt\x1fNote\n')

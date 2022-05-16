@@ -22,10 +22,13 @@
   "author": "thewebmasterp",
   "license": "ISC",
   "bin": {
-	"rofi-notes-org": "./notes-org.js"
+    "rofi-notes-org": "./notes-org.js"
   },
   "bugs": {
     "url": "https://github.com/thewebmasterp/rofi-notes-org/issues"
   },
-  "homepage": "https://github.com/thewebmasterp/rofi-notes-org#readme"
+  "homepage": "https://github.com/thewebmasterp/rofi-notes-org#readme",
+  "dependencies": {
+    "yaml": "^2.1.0"
+  }
 }
