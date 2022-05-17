@@ -5,7 +5,7 @@ A simple [[https://www.mankier.com/5/rofi-script][rofi-script]] that helps you c
 ** Installation
 Use [[https://www.npmjs.com/package/rofi-notes-org][npm]] to install ~rofi-notes-org~ globally.
 #+BEGIN_SRC bash
-  npm install -g rofi-notes-org
+  $ npm install -g rofi-notes-org
 #+END_SRC
 ** Initial configuration
 rofi-notes-org needs a config file located at ~~/.config/rofi/rofi-notes-org.yaml~ with the following properties:
@@ -17,5 +17,8 @@ rofi-notes-org needs a config file located at ~~/.config/rofi/rofi-notes-org.yam
   # If set to true the specified `notes-file` will be in
   # plain text format rather than using Emacs Org-mode format.
 #+END_SRC
-At this point
+At this point calling the script from the terminal should come with no errors.
+#+BEGIN_SRC bash
+  $ rofi-notes-org
+#+END_SRC
 
