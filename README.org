@@ -7,6 +7,7 @@ Use [[https://www.npmjs.com/package/rofi-notes-org][npm]] to install ~rofi-notes
 #+BEGIN_SRC bash
   $ npm install -g rofi-notes-org
 #+END_SRC
+Needless to say, you have to have [[https://github.com/davatorium/rofi][rofi]] installed as well.
 ** Initial configuration
 rofi-notes-org needs a config file located at ~~/.config/rofi/rofi-notes-org.yaml~ with the following properties:
 #+BEGIN_SRC yaml
@@ -17,8 +18,23 @@ rofi-notes-org needs a config file located at ~~/.config/rofi/rofi-notes-org.yam
   # If set to true the specified `notes-file` will be in
   # plain text format rather than using Emacs Org-mode format.
 #+END_SRC
-At this point calling the script from the terminal should come with no errors.
+At this point calling the script from the terminal should execute without errors.
 #+BEGIN_SRC bash
   $ rofi-notes-org
 #+END_SRC
+** Usage
+To use this rofi script, call it like this:
+#+BEGIN_SRC bash
+  $ rofi -show notes -modi "notes:rofi-notes-org"
+#+END_SRC
+You may also want to use it in a combination with other modi like this:
+#+BEGIN_SRC bash
+  $ rofi -show notes -modi "notes:rofi-notes-org,run"
+#+END_SR
+You may also want to bind it to a hotkey in your window manager or desktop environment of choice.
+** License
+[[https://choosealicense.com/licenses/mit/][MIT]]
+
+
+
 
