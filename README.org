@@ -13,6 +13,7 @@ rofi-notes-org needs a config file located at =~/.config/rofi/rofi-notes-org.yam
 #+BEGIN_SRC yaml
   notes-file: "~/.notes_org"
   # Path to the text file where the data (notes) will be stored.
+  # WARNING: this file has to be already created.
 
   plain-text-format: false
   # If set to true the specified `notes-file` will be in

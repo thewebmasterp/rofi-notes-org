@@ -1,0 +1,71 @@
+[17:59:37.204] Global cache location '/home/master/.cache/typescript/4.5', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[17:59:37.207] Processing cache location '/home/master/.cache/typescript/4.5'
+[17:59:37.207] Trying to find '/home/master/.cache/typescript/4.5/package.json'...
+[17:59:37.210] Loaded content of '/home/master/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.592"},"devDependencies":{"@types/color-convert":"^2.0.0","@types/color-name":"^1.1.1","@types/object-assign":"^4.0.30","@types/prompts":"^2.0.14","@types/react":"^18.0.5","@types/require-directory":"^2.1.2","@types/wrap-ansi":"^8.0.1","@types/yar":"^9.1.1","@types/yargs":"^17.0.10","@types/yargs-parser":"^21.0.0"}}
+[17:59:37.210] Loaded content of '/home/master/.cache/typescript/4.5/package-lock.json'
+[17:59:37.224] Adding entry into typings cache: 'color-convert' => '/home/master/.cache/typescript/4.5/node_modules/@types/color-convert/index.d.ts'
+[17:59:37.226] Adding entry into typings cache: 'color-name' => '/home/master/.cache/typescript/4.5/node_modules/@types/color-name/index.d.ts'
+[17:59:37.227] Adding entry into typings cache: 'object-assign' => '/home/master/.cache/typescript/4.5/node_modules/@types/object-assign/index.d.ts'
+[17:59:37.228] Adding entry into typings cache: 'prompts' => '/home/master/.cache/typescript/4.5/node_modules/@types/prompts/index.d.ts'
+[17:59:37.233] Adding entry into typings cache: 'react' => '/home/master/.cache/typescript/4.5/node_modules/@types/react/index.d.ts'
+[17:59:37.234] Adding entry into typings cache: 'require-directory' => '/home/master/.cache/typescript/4.5/node_modules/@types/require-directory/index.d.ts'
+[17:59:37.235] Adding entry into typings cache: 'wrap-ansi' => '/home/master/.cache/typescript/4.5/node_modules/@types/wrap-ansi/index.d.ts'
+[17:59:37.238] Adding entry into typings cache: 'yar' => '/home/master/.cache/typescript/4.5/node_modules/@types/yar/index.d.ts'
+[17:59:37.241] Adding entry into typings cache: 'yargs' => '/home/master/.cache/typescript/4.5/node_modules/@types/yargs/index.d.ts'
+[17:59:37.242] Adding entry into typings cache: 'yargs-parser' => '/home/master/.cache/typescript/4.5/node_modules/@types/yargs-parser/index.d.ts'
+[17:59:37.242] Finished processing cache location '/home/master/.cache/typescript/4.5'
+[17:59:37.243] Process id: 185062
+[17:59:37.243] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[17:59:37.243] validateDefaultNpmLocation: false
+[17:59:37.243] Npm config file: /home/master/.cache/typescript/4.5/package.json
+[17:59:37.243] Updating types-registry npm package...
+[17:59:37.243] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[17:59:38.273]     Succeeded. stdout:
+    
+    up to date, audited 30 packages in 700ms
+
+found 0 vulnerabilities
+
+[17:59:38.273] Updated types-registry npm package
+[17:59:38.638] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/master/Desktop/rofi-notes-org/notes-org.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/master/Desktop/rofi-notes-org","kind":"discover"}
+[17:59:38.656] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[17:59:38.656] Explicitly included types: []
+[17:59:38.657] Typing names in '/home/master/Desktop/rofi-notes-org/package.json' dependencies: ["yaml"]
+[17:59:38.658] Searching for typing names in /home/master/Desktop/rofi-notes-org/node_modules; all files: ["/home/master/Desktop/rofi-notes-org/node_modules/.package-lock.json","/home/master/Desktop/rofi-notes-org/node_modules/yaml/package.json"]
+[17:59:38.660]     Found package names: ["yaml"]
+[17:59:38.661] Inferred typings from unresolved imports: []
+[17:59:38.661] Result: {"cachedTypingPaths":[],"newTypingNames":["yaml"],"filesToWatch":["/home/master/Desktop/rofi-notes-org/package.json","/home/master/Desktop/rofi-notes-org/bower_components","/home/master/Desktop/rofi-notes-org/node_modules"]}
+[17:59:38.661] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["yaml"],"filesToWatch":["/home/master/Desktop/rofi-notes-org/package.json","/home/master/Desktop/rofi-notes-org/bower_components","/home/master/Desktop/rofi-notes-org/node_modules"]}
+[17:59:38.661] FileWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json
+[17:59:38.661] FileWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:59:38.663] DirectoryWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/bower_components
+[17:59:38.663] DirectoryWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:59:38.663] Elapsed:: 0.701397992670536ms DirectoryWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:59:38.664] DirectoryWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/node_modules
+[17:59:38.664] DirectoryWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:59:38.670] Elapsed:: 5.997860997915268ms DirectoryWatcher:: Added:: WatchInfo: /home/master/Desktop/rofi-notes-org/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:59:38.670] Installing typings ["yaml"]
+[17:59:38.670] 'yaml':: Entry for package 'yaml' does not exist in local types registry - skipping...
+[17:59:38.670] All typings are known to be missing or invalid - no need to install more typings
+[17:59:38.670] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:59:38.671] Response has been sent.
+[18:09:31.818] FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:09:31.819] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","kind":"action::invalidate"}
+[18:09:31.819] Response has been sent.
+[18:09:31.819] Elapsed:: 0.564910002052784ms FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:09:31.924] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/master/Desktop/rofi-notes-org/notes-org.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/master/Desktop/rofi-notes-org","kind":"discover"}
+[18:09:31.924] Explicitly included types: []
+[18:09:31.928] Typing names in '/home/master/Desktop/rofi-notes-org/package.json' dependencies: ["yaml"]
+[18:09:31.929] Searching for typing names in /home/master/Desktop/rofi-notes-org/node_modules; all files: ["/home/master/Desktop/rofi-notes-org/node_modules/.package-lock.json","/home/master/Desktop/rofi-notes-org/node_modules/yaml/package.json"]
+[18:09:31.935]     Found package names: ["yaml"]
+[18:09:31.935] Inferred typings from unresolved imports: []
+[18:09:31.935] Result: {"cachedTypingPaths":[],"newTypingNames":["yaml"],"filesToWatch":["/home/master/Desktop/rofi-notes-org/package.json","/home/master/Desktop/rofi-notes-org/bower_components","/home/master/Desktop/rofi-notes-org/node_modules"]}
+[18:09:31.935] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["yaml"],"filesToWatch":["/home/master/Desktop/rofi-notes-org/package.json","/home/master/Desktop/rofi-notes-org/bower_components","/home/master/Desktop/rofi-notes-org/node_modules"]}
+[18:09:31.936] Installing typings ["yaml"]
+[18:09:31.936] 'yaml':: Entry for package 'yaml' does not exist in local types registry - skipping...
+[18:09:31.936] All typings are known to be missing or invalid - no need to install more typings
+[18:09:31.936] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[18:09:31.936] Response has been sent.
