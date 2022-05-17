@@ -30,7 +30,7 @@ To use this rofi script, call it like this:
 You may also want to use it in a combination with other modi like this:
 #+BEGIN_SRC bash
   $ rofi -show notes -modi "notes:rofi-notes-org,run"
-#+END_SR
+#+END_SRC
 You may also want to bind it to a hotkey in your window manager or desktop environment of choice.
 ** License
 [[https://choosealicense.com/licenses/mit/][MIT]]
