@@ -1,6 +1,6 @@
 {
   "name": "rofi-notes-org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rofi script that helps you catch and access notes with rofi and store them in a simple org (or just plain text) file.",
   "main": "notes-org.js",
   "scripts": {

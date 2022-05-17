@@ -79,4 +79,4 @@ fs.readFile(config['notes-file'], 'utf8', (err, rawdata) => {
     console.log(arr.join(''))
   }
 })
-console.log('\0prompt\x1fNote\n')
+// console.log('\0prompt\x1fnotes\n')
