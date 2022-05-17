@@ -8,4 +8,14 @@ Use [[https://www.npmjs.com/package/rofi-notes-org][npm]] to install ~rofi-notes
   npm install -g rofi-notes-org
 #+END_SRC
 ** Initial configuration
+rofi-notes-org needs a config file located at ~~/.config/rofi/rofi-notes-org.yaml~ with the following properties:
+#+BEGIN_SRC yaml
+  notes-file: "~/.notes_org"
+  # Path to the text file where the data (notes) will be stored.
+
+  plain-text-format: false
+  # If set to true the specified `notes-file` will be in
+  # plain text format rather than using Emacs Org-mode format.
+#+END_SRC
+At this point
 
