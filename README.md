@@ -1,1 +1,0 @@
-# rofi-notes-org

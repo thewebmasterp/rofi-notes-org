@@ -1,0 +1,4 @@
+* Trying to use org mode for this readme
+Some *bold* text.
+** Subheading
+Some text
