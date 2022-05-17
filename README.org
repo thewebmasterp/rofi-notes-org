@@ -1,4 +1,9 @@
-* Trying to use org mode for this readme
-Some *bold* text.
-** Subheading
-Some text
+* rofi-notes-org
+A simple [[https://www.mankier.com/5/rofi-script][rofi-script]] that helps you catch and access notes with [[https://github.com/davatorium/rofi][rofi]] and store them in a simple Emacs [[https://orgmode.org/][Org-mode]] (or plain text) file. 
+** Installation
+Use [[https://www.npmjs.com/package/rofi-notes-org][npm]] to install ~rofi-notes-org~ globally.
+#+BEGIN_SRC bash
+  npm install -g rofi-notes-org
+#+END_SRC
+** Initial configuration
+
