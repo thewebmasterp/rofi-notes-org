@@ -69,3 +69,22 @@ found 0 vulnerabilities
 [17:12:12.953] Sending response:
     {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
 [17:12:12.953] Response has been sent.
+[17:47:05.692] FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:47:05.692] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","kind":"action::invalidate"}
+[17:47:05.692] Response has been sent.
+[17:47:05.692] Elapsed:: 0.3803649991750717ms FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 2000 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:47:05.794] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/master/Desktop/rofi-notes-org/notes-org.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/master/Desktop/rofi-notes-org","kind":"discover"}
+[17:47:05.795] Explicitly included types: []
+[17:47:05.797] Typing names in '/home/master/Desktop/rofi-notes-org/package.json' dependencies: ["yaml"]
+[17:47:05.798] Searching for typing names in /home/master/Desktop/rofi-notes-org/node_modules; all files: ["/home/master/Desktop/rofi-notes-org/node_modules/.package-lock.json","/home/master/Desktop/rofi-notes-org/node_modules/yaml/package.json"]
+[17:47:05.803]     Found package names: ["yaml"]
+[17:47:05.804] Inferred typings from unresolved imports: []
+[17:47:05.804] Result: {"cachedTypingPaths":[],"newTypingNames":["yaml"],"filesToWatch":["/home/master/Desktop/rofi-notes-org/package.json","/home/master/Desktop/rofi-notes-org/bower_components","/home/master/Desktop/rofi-notes-org/node_modules"]}
+[17:47:05.804] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["yaml"],"filesToWatch":["/home/master/Desktop/rofi-notes-org/package.json","/home/master/Desktop/rofi-notes-org/bower_components","/home/master/Desktop/rofi-notes-org/node_modules"]}
+[17:47:05.804] Installing typings ["yaml"]
+[17:47:05.805] 'yaml':: Entry for package 'yaml' does not exist in local types registry - skipping...
+[17:47:05.805] All typings are known to be missing or invalid - no need to install more typings
+[17:47:05.805] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:47:05.805] Response has been sent.
