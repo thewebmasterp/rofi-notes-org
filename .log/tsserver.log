@@ -20,3 +20,7 @@ Info 16   [22:50:24.237] 	Files (55)
 Info 17   [22:50:24.237] -----------------------------------------------
 Info 18   [17:12:14.663] FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 250 undefined WatchType: package.json file
 Info 19   [17:12:14.663] Elapsed:: 0.7107580006122589ms FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 250 undefined WatchType: package.json file
+Info 20   [17:47:07.350] FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 250 undefined WatchType: package.json file
+Info 21   [17:47:07.351] Elapsed:: 0.43339600414037704ms FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 250 undefined WatchType: package.json file
+Info 22   [17:52:27.421] FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 250 undefined WatchType: package.json file
+Info 23   [17:52:27.422] Elapsed:: 0.352464996278286ms FileWatcher:: Triggered with /home/master/Desktop/rofi-notes-org/package.json 1:: WatchInfo: /home/master/Desktop/rofi-notes-org/package.json 250 undefined WatchType: package.json file
