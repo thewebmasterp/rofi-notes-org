@@ -9,7 +9,7 @@ Use [[https://www.npmjs.com/package/rofi-notes-org][npm]] to install ~rofi-notes
 #+END_SRC
 Needless to say, you have to have [[https://github.com/davatorium/rofi][rofi]] installed as well.
 ** Initial configuration
-rofi-notes-org needs a config file located at ~~/.config/rofi/rofi-notes-org.yaml~ with the following properties:
+rofi-notes-org needs a config file located at =~/.config/rofi/rofi-notes-org.yaml= with the following properties:
 #+BEGIN_SRC yaml
   notes-file: "~/.notes_org"
   # Path to the text file where the data (notes) will be stored.
