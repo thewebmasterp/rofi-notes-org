@@ -65,7 +65,7 @@ fs.readFile(config['notes-file'], 'utf8', (err, rawdata) => {
       const indexToRemove = arr.indexOf(args[0])
       arr.splice(indexToRemove, 1)
     } else {
-      arr.push(args[0])
+      arr.unshift(args[0])
     }
     const newData = txtToOrg(arr.join('\n'))
     fs.writeFile(config['notes-file'], newData, err => {

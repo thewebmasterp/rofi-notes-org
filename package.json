@@ -1,7 +1,7 @@
 {
   "name": "rofi-notes-org",
-  "version": "1.0.4",
-  "description": "A simple rofi script that helps you catch and access notes with rofi and store them in a simple Emacs Org-mode (or plain text) file.", 
+  "version": "1.0.5",
+  "description": "A simple rofi script that helps you catch and access notes with rofi and store them in a simple Emacs Org-mode (or plain text) file.",
   "main": "notes-org.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
